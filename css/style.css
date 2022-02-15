@@ -248,6 +248,16 @@ footer {
     height: auto;
     background: linear-gradient(to bottom,rgb(11, 90, 25), rgb(228, 231, 44));
   }
+  .streamer p:hover{
+    color:purple;
+    
+  }
+
+  
+  .imagen_redes:hover{
+    transform: rotate(15deg);
+  }
+  
 
   .redes {
     display: flex;
@@ -268,8 +278,16 @@ footer {
     padding: 1rem;
   }
 
+  .streamer a{
+
+  }
+
+  .streamer a:hover{
+
+  }
+
   .imagen_redes {
-    width: 2rem;
+    width: 3rem;
     border-radius: 0.2rem;
   }
 }
@@ -353,7 +371,7 @@ footer {
   }
   .footer {
   
-    background: linear-gradient(to bottom,rgb(11, 90, 25), rgb(234, 238, 235));
+    background: linear-gradient(to bottom,rgb(11, 90, 25), rgb(228, 231, 44));
   }
 
 }
